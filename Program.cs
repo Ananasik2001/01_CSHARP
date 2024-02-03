@@ -4,22 +4,22 @@ int c = 9;
 int d = 4;
 int e = 10;
 
-int max = a; 
+int max = a;
 
-if (b > max)
+if (max < b)
 {
     max = b;
 }
-if (c > max)
+if(max < c)
 {
     max = c;
 }
-if (d > max)
+if(max < d)
 {
     max = d;
 }
-if (e > max)
+if(max < e)
 {
     max = e;
 }
-Console.WriteLine (max);
+Console.WriteLine(max);
